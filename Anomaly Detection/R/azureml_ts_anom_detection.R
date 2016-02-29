@@ -111,7 +111,7 @@ if(xlabel == "None") { xlabel <- ''}
  }
  
  #res$anoms$timestamp <- as.character(res$anoms$timestamp, format="%Y-%m-%dT%I:%M:%S %Z")
- res$anoms[[1]] <- as.character(res$anoms[[1]], format="%Y-%m-%dT%I:%M:%S %Z")
+ res$anoms[[1]] <- as.character(res$anoms[[1]], format="%Y-%m-%dT%H:%M:%S %Z")
 
  if(plot == TRUE){print(res$plot) }
  
